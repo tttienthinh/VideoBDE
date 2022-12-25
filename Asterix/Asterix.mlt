@@ -317,9 +317,9 @@
   <playlist id="playlist1">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
-    <blank length="00:01:30.734"/>
+    <blank length="00:01:30.501"/>
     <entry producer="chain13" in="00:00:01.399" out="00:00:07.059"/>
-    <blank length="00:00:04.928"/>
+    <blank length="00:00:05.161"/>
     <entry producer="chain14" in="00:00:00.333" out="00:00:22.077"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:00.366"/>
     <entry producer="chain15" in="00:00:07.359" out="00:00:14.751"/>
@@ -403,11 +403,11 @@
     <property name="shotcut:name">V2</property>
     <blank length="00:01:26.805"/>
     <entry producer="chain16" in="00:00:00.566" out="00:00:02.331"/>
-    <blank length="00:00:02.131"/>
-    <entry producer="chain17" in="00:00:01.399" out="00:00:03.596"/>
-    <blank length="00:00:01.732"/>
+    <blank length="00:00:01.898"/>
+    <entry producer="chain17" in="00:00:01.399" out="00:00:03.996"/>
+    <blank length="00:00:01.332"/>
     <entry producer="chain18" in="00:00:05.361" out="00:00:07.059"/>
-    <blank length="00:00:02.198"/>
+    <blank length="00:00:02.431"/>
     <entry producer="producer0" in="00:00:00.000" out="00:00:02.697"/>
     <entry producer="chain19" in="00:00:00.333" out="00:00:27.771"/>
   </playlist>
@@ -474,7 +474,7 @@
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
     <property name="shotcut:trackHeight">125</property>
-    <property name="shotcut:scaleFactor">1.01</property>
+    <property name="shotcut:scaleFactor">3.25179</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1" hide="video"/>
