@@ -1,0 +1,244 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.13.0" title="Shotcut version 22.12.21" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:14.320">
+    <property name="length">00:04:14.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:14.320"/>
+  </playlist>
+  <chain id="chain0" out="00:00:06.840">
+    <property name="length">00:00:06.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 pyramide en gaulle.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T16:22:34</property>
+    <property name="shotcut:hash">11bab617d80c5c54b4f77c0a17684c46</property>
+    <property name="shotcut:caption">3 pyramide en gaulle.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:00:05.840">
+    <property name="length">00:00:05.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 soso devant pyramide.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T16:26:49</property>
+    <property name="shotcut:hash">432e69703fdba98df2c68a10d374428f</property>
+    <property name="shotcut:caption">3 soso devant pyramide.MOV</property>
+  </chain>
+  <chain id="chain2" out="00:00:11.640">
+    <property name="length">00:00:11.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 marche devant la pyramide.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T16:30:12</property>
+    <property name="shotcut:hash">812d1776cce8028fd07a6d7840189a19</property>
+    <property name="shotcut:caption">3 marche devant la pyramide.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:00:11.640">
+    <property name="length">00:00:11.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 marche devant la pyramide.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T16:30:12</property>
+    <property name="shotcut:hash">812d1776cce8028fd07a6d7840189a19</property>
+    <property name="shotcut:caption">3 marche devant la pyramide.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:00:09.080">
+    <property name="length">00:00:09.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 ou est gagz bien.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T16:28:50</property>
+    <property name="shotcut:hash">0c15ec0306d170fd42285e37e278a688</property>
+    <property name="shotcut:caption">3 ou est gagz bien.MOV</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:15.360"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:06.840"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:05.840"/>
+    <blank length="00:00:01.120"/>
+    <entry producer="chain2" in="00:00:00.320" out="00:00:01.680"/>
+    <blank length="00:00:07.800"/>
+    <entry producer="chain3" in="00:00:02.520" out="00:00:06.400"/>
+    <blank length="00:00:05.480"/>
+    <entry producer="chain4" in="00:00:00.800" out="00:00:09.080"/>
+  </playlist>
+  <chain id="chain5" out="00:03:58.960">
+    <property name="length">00:03:59.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Arabic music v=ebwh1mcoqmk.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-27T23:24:11</property>
+    <property name="shotcut:hash">e0074c7abb0a8f8fc7f082f7abd4bd05</property>
+    <property name="shotcut:caption">Arabic music v=ebwh1mcoqmk.mp3</property>
+    <filter id="filter0" out="00:03:58.960">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:32.480=-5;00:00:33.360=-24;00:00:39.480=-24;00:00:40.800=0</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:15.360"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:03:58.960"/>
+  </playlist>
+  <chain id="chain6" out="00:00:04.560">
+    <property name="length">00:00:04.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/betisier/3 ou est gagz.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T16:28:04</property>
+    <property name="shotcut:hash">58b67d8796b77fe916452606a72543d4</property>
+    <property name="shotcut:caption">3 ou est gagz.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" out="00:00:02.880">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-70</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain7" out="00:00:18.360">
+    <property name="length">00:00:18.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 soso et audrey danse.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T17:01:45</property>
+    <property name="shotcut:hash">588c0dc44a11c3a4e9c58eff83c94a12</property>
+    <property name="shotcut:caption">3 soso et audrey danse.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain8" out="00:00:06.880">
+    <property name="length">00:00:06.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 nimp dans la rue.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T17:03:15</property>
+    <property name="shotcut:hash">d7301bf0ff991aab24f81622eccc9228</property>
+    <property name="shotcut:caption">3 nimp dans la rue.MOV</property>
+  </chain>
+  <chain id="chain9" out="00:00:10.000">
+    <property name="length">00:00:10.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/3 - Paris 1/3 nimp dans le rue 1.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-16T17:00:17</property>
+    <property name="shotcut:hash">fac94e59891bf2c1030e8e5437cd12e2</property>
+    <property name="shotcut:caption">3 nimp dans le rue 1.MOV</property>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:31.440"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:02.880"/>
+    <blank length="00:00:00.480"/>
+    <entry producer="chain7" in="00:00:00.760" out="00:00:04.320"/>
+    <blank length="00:00:03.920"/>
+    <entry producer="chain8" in="00:00:03.480" out="00:00:06.720"/>
+    <entry producer="chain9" in="00:00:07.840" out="00:00:10.000"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:04:14.320">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">3.25179</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:trackHeight">125</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

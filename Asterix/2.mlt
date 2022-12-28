@@ -1,0 +1,218 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.13.0" title="Shotcut version 22.12.21" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin" title="Shotcut version 22.12.21">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:03:42.680">
+    <property name="length">00:03:42.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:03:42.680"/>
+  </playlist>
+  <chain id="chain0" out="00:00:13.280">
+    <property name="length">00:00:13.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2- decheance.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:16:00</property>
+    <property name="shotcut:hash">edade893b4867ec1f1585febc27de15f</property>
+    <property name="shotcut:caption">2- decheance.MOV</property>
+  </chain>
+  <chain id="chain1" out="00:00:11.800">
+    <property name="length">00:00:11.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 yeux bilal assis.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:19:32</property>
+    <property name="shotcut:hash">7ee3389e33d65d5be2d4b22b02e07bed</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2 yeux bilal assis.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:00:25.560">
+    <property name="length">00:00:25.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 reveil ast obe.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:19:50</property>
+    <property name="shotcut:hash">a9cd411f75ec68ebebea686cb94fb80d</property>
+    <property name="shotcut:caption">2 reveil ast obe.MOV</property>
+  </chain>
+  <chain id="chain3" out="00:00:13.040">
+    <property name="length">00:00:13.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 reveil idefix.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:23:09</property>
+    <property name="shotcut:hash">42d4b41017579e41ff6f0e3fac0aa106</property>
+    <property name="shotcut:caption">2 reveil idefix.MOV</property>
+  </chain>
+  <chain id="chain4" out="00:00:09.240">
+    <property name="length">00:00:09.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 idefix miroir.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:23:38</property>
+    <property name="shotcut:hash">82b4cdfa1849a886a73979586b4c26c6</property>
+    <property name="shotcut:caption">2 idefix miroir.MOV</property>
+  </chain>
+  <chain id="chain5" out="00:00:05.920">
+    <property name="length">00:00:05.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 idefix marche.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:24:10</property>
+    <property name="shotcut:hash">4307ebbdcab4bc8459f13d7c69b7c4df</property>
+    <property name="shotcut:caption">2 idefix marche.MOV</property>
+  </chain>
+  <chain id="chain6" out="00:00:04.160">
+    <property name="length">00:00:04.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 oh idefix.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:24:58</property>
+    <property name="shotcut:hash">58d6168f9480f47a31767dae604bc386</property>
+    <property name="shotcut:caption">2 oh idefix.MOV</property>
+  </chain>
+  <chain id="chain7" out="00:00:22.640">
+    <property name="length">00:00:22.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 dicussion.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T14:30:50</property>
+    <property name="shotcut:hash">99f79a24bf6cf4bb8a2eef2d790675e1</property>
+    <property name="shotcut:caption">2 dicussion.MOV</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:51.760"/>
+    <entry producer="chain0" in="00:00:03.440" out="00:00:09.120"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:06.680"/>
+    <entry producer="chain2" in="00:00:00.960" out="00:00:23.440"/>
+    <entry producer="chain3" in="00:00:04.480" out="00:00:12.320"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:09.240"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:05.920"/>
+    <entry producer="chain6" in="00:00:02.240" out="00:00:03.640"/>
+    <entry producer="chain7" in="00:00:01.120" out="00:00:21.880"/>
+  </playlist>
+  <chain id="chain8" out="00:03:26.920">
+    <property name="length">00:03:26.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Alors on danse instru.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-28T14:01:28</property>
+    <property name="shotcut:hash">88ef918cca70fd6fded6a8b623315798</property>
+    <property name="shotcut:caption">Alors on danse instru.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:01:27.680">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:54.000=-20;00:00:55.520=-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain9" out="00:03:26.920">
+    <property name="length">00:03:26.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Alors on danse instru.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-28T14:01:28</property>
+    <property name="shotcut:hash">88ef918cca70fd6fded6a8b623315798</property>
+    <property name="shotcut:caption">Alors on danse instru.mp3</property>
+    <filter id="filter1" in="00:01:28.120" out="00:03:26.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-30</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:16.160"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:01:27.680"/>
+    <entry producer="chain9" in="00:01:28.120" out="00:03:26.920"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:03:42.680">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">3.25179</property>
+    <property name="shotcut:trackHeight">77</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
