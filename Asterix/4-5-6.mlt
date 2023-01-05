@@ -1,0 +1,602 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.13.0" title="Shotcut version 22.12.21" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="27360000" frame_rate_den="911039" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:23.975">
+    <property name="length">00:01:24.008</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:23.975"/>
+  </playlist>
+  <chain id="chain10" out="00:07:43.388">
+    <property name="length">00:07:43.421</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Joco.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-25T20:53:40</property>
+    <property name="shotcut:hash">f636a94d47e93d9e9c3e0012c3a961df</property>
+    <property name="shotcut:caption">Joco.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:07:43.388">
+    <property name="length">00:07:43.421</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Joco.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-25T20:53:40</property>
+    <property name="shotcut:hash">f636a94d47e93d9e9c3e0012c3a961df</property>
+    <property name="shotcut:caption">Joco.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain12" out="00:07:43.388">
+    <property name="length">00:07:43.421</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Joco.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-25T20:53:40</property>
+    <property name="shotcut:hash">f636a94d47e93d9e9c3e0012c3a961df</property>
+    <property name="shotcut:caption">Joco.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:08.591" out="00:00:18.048">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:07.459=0;00:00:09.457=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:02.031</property>
+    </filter>
+  </chain>
+  <chain id="chain0" out="00:00:03.496">
+    <property name="length">00:00:03.536</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1119.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T08:44:09</property>
+    <property name="shotcut:hash">1ce9fce6f85ab910d40c9542f069a8ff</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">IMG_1119.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:00:05.761">
+    <property name="length">00:00:05.805</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1118.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T08:43:18</property>
+    <property name="shotcut:hash">7adeded8566881ded3bd297ffc9687d6</property>
+    <property name="shotcut:caption">IMG_1118.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:00:07.958">
+    <property name="length">00:00:08.007</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1123.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T08:46:29</property>
+    <property name="shotcut:hash">a7bfa10e060d3b481d54224c3ee18502</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">IMG_1123.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" in="00:00:03.496" out="00:00:07.259">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">15</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain3" out="00:00:14.518">
+    <property name="length">00:00:14.546</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1132.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T08:58:02</property>
+    <property name="shotcut:hash">620a9261b99ea1e67aed904624826207</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">IMG_1132.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" in="00:00:02.697" out="00:00:12.753">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">15</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain4" out="00:00:07.858">
+    <property name="length">00:00:07.907</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1133.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T08:59:08</property>
+    <property name="shotcut:hash">a3b01ee7394fa49714d85dea77abc213</property>
+    <property name="shotcut:caption">IMG_1133.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter3" in="00:00:01.099" out="00:00:03.396">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">15</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <producer id="producer0" in="00:00:00.000" out="00:00:02.597">
+    <property name="length">00:00:02.636</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1133.MOV</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1133.MOV</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">a3b01ee7394fa49714d85dea77abc213</property>
+    <property name="shotcut:caption">IMG_1133.MOV (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:19.746">
+    <property name="length">00:00:19.784</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1114.MOV</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1114.MOV</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">4b537cec69eca1776106568850f5f1a1</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">IMG_1114.MOV (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain5" out="00:00:59.337">
+    <property name="length">00:00:59.384</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1114.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T08:32:36</property>
+    <property name="shotcut:hash">4b537cec69eca1776106568850f5f1a1</property>
+    <property name="shotcut:caption">IMG_1114.MOV</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:skipConvert">1</property>
+  </chain>
+  <producer id="producer2" in="00:00:00.000" out="00:00:11.854">
+    <property name="length">00:00:11.877</property>
+    <property name="eof">pause</property>
+    <property name="resource">5:/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1114.MOV</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">5</property>
+    <property name="warp_resource">/home/tttienthinh/Documents/VideoBDE/Shot/6 - Pole voyage/IMG_1114.MOV</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">4b537cec69eca1776106568850f5f1a1</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">IMG_1114.MOV (5x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:01.299"/>
+    <entry producer="chain10" in="00:00:00.000" out="00:00:02.597"/>
+    <entry producer="chain11" in="00:00:04.862" out="00:00:07.093"/>
+    <entry producer="chain12" in="00:00:08.591" out="00:00:18.048"/>
+    <blank length="00:00:28.004"/>
+    <entry producer="chain0" in="00:00:00.666" out="00:00:03.330"/>
+    <entry producer="chain1" in="00:00:03.763" out="00:00:05.761"/>
+    <entry producer="chain2" in="00:00:03.496" out="00:00:07.259"/>
+    <entry producer="chain3" in="00:00:02.697" out="00:00:12.753"/>
+    <entry producer="chain4" in="00:00:01.099" out="00:00:03.396"/>
+    <entry producer="producer0" in="00:00:01.132" out="00:00:02.597"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:06.260"/>
+    <entry producer="chain5" in="00:00:18.847" out="00:00:23.275"/>
+    <entry producer="producer2" in="00:00:04.662" out="00:00:11.721"/>
+  </playlist>
+  <chain id="chain13" out="00:00:07.059">
+    <property name="length">00:00:07.093</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/4 - Partenariats/IMG_1094.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T07:39:09</property>
+    <property name="shotcut:hash">fd6bf8a258498e65b7cb709d57672762</property>
+    <property name="shotcut:caption">IMG_1094.MOV</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </chain>
+  <chain id="chain14" out="00:00:27.771">
+    <property name="length">00:00:27.804</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/IMG_1137.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T09:16:21</property>
+    <property name="shotcut:hash">b75f5036d57c85722bde38b1c0457885</property>
+    <property name="shotcut:caption">IMG_1137.MOV</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain15" out="00:00:14.751">
+    <property name="length">00:00:14.784</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/IMG_1138.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T09:18:11</property>
+    <property name="shotcut:hash">6e134f6ed424bb764b232b2228c0658a</property>
+    <property name="shotcut:caption">IMG_1138.MOV</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="xml">was here</property>
+  </chain>
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:00.366">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain14" in="00:00:22.110" out="00:00:22.476"/>
+    <track producer="chain15" in="00:00:06.959" out="00:00:07.326"/>
+    <transition id="transition2" out="00:00:00.366">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.366">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:03.696"/>
+    <entry producer="chain13" in="00:00:01.399" out="00:00:07.059"/>
+    <blank length="00:00:05.161"/>
+    <entry producer="chain14" in="00:00:00.333" out="00:00:22.077"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.366"/>
+    <entry producer="chain15" in="00:00:07.359" out="00:00:14.285"/>
+  </playlist>
+  <chain id="chain16" out="00:00:03.696">
+    <property name="length">00:00:03.729</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/4 - Partenariats/IMG_1093.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T07:38:56</property>
+    <property name="shotcut:hash">c7d9709b976785bd133f84fccec46ea4</property>
+    <property name="shotcut:caption">IMG_1093.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain17" out="00:00:07.059">
+    <property name="length">00:00:07.093</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/4 - Partenariats/IMG_1094.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T07:39:09</property>
+    <property name="shotcut:hash">fd6bf8a258498e65b7cb709d57672762</property>
+    <property name="shotcut:caption">IMG_1094.MOV</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </chain>
+  <chain id="chain18" out="00:00:07.059">
+    <property name="length">00:00:07.093</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/4 - Partenariats/IMG_1094.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T07:39:09</property>
+    <property name="shotcut:hash">fd6bf8a258498e65b7cb709d57672762</property>
+    <property name="shotcut:caption">IMG_1094.MOV</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </chain>
+  <producer id="producer3" in="00:00:00.000" out="04:00:00.000">
+    <property name="length">04:00:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/Screenshot from IMG_1137.MOV.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-12-25T22:26:20</property>
+    <property name="shotcut:hash">4d1ea750fd1c753aafe3e940dbb33bfd</property>
+    <property name="shotcut:caption">Screenshot from IMG_1137.MOV.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain19" out="00:00:27.771">
+    <property name="length">00:00:27.804</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/IMG_1137.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T09:16:21</property>
+    <property name="shotcut:hash">b75f5036d57c85722bde38b1c0457885</property>
+    <property name="shotcut:caption">IMG_1137.MOV</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain6" out="00:00:00.866">
+    <property name="length">00:00:00.901</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/potion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-27T22:51:40</property>
+    <property name="shotcut:hash">cd2214cb1fa27193441941c7e681f036</property>
+    <property name="shotcut:caption">potion.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:00.866">
+      <property name="version">0.4</property>
+      <property name="mlt_service">frei0r.bluescreen0r</property>
+      <property name="threads">0</property>
+      <property name="0">#00ef00</property>
+      <property name="1">0.843</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter5" out="00:00:00.866">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-142 -30 1878 1056.38 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="chain16" in="00:00:00.566" out="00:00:02.331"/>
+    <blank length="00:00:01.898"/>
+    <entry producer="chain17" in="00:00:01.399" out="00:00:03.996"/>
+    <blank length="00:00:01.332"/>
+    <entry producer="chain18" in="00:00:05.361" out="00:00:07.059"/>
+    <blank length="00:00:02.431"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:02.697"/>
+    <entry producer="chain19" in="00:00:00.333" out="00:00:27.771"/>
+    <blank length="00:00:22.110"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:00.866"/>
+  </playlist>
+  <producer id="producer4" in="00:00:00.000" out="00:00:28.903">
+    <property name="length">00:00:28.936</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/Y2Mate.is - Asterix i Obelix w Green Screen-7MpP7it-hAE-720p-1655693073126.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/Y2Mate.is - Asterix i Obelix w Green Screen-7MpP7it-hAE-720p-1655693073126.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">33771c33a07fcea70f0830d10e8cc117</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="shotcut:caption">Y2Mate.is - Asterix i Obelix w Green Screen-7MpP7it-hAE-720p-1655693073126.mp4 (2x)</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" in="00:00:12.454" out="00:00:16.849">
+      <property name="version">0.4</property>
+      <property name="mlt_service">frei0r.bluescreen0r</property>
+      <property name="threads">0</property>
+      <property name="0">#00ef00</property>
+      <property name="1">0.343</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter7" in="00:00:12.454" out="00:00:16.849">
+      <property name="version">0.4</property>
+      <property name="mlt_service">frei0r.alpha0ps</property>
+      <property name="shotcut:filter">alphaChannelAdjust</property>
+      <property name="2">0.4</property>
+      <property name="3">1</property>
+      <property name="4">1</property>
+    </filter>
+  </producer>
+  <chain id="chain20" out="00:00:14.751">
+    <property name="length">00:00:14.784</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/5 - Pole com/IMG_1138.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-11T09:18:11</property>
+    <property name="shotcut:hash">6e134f6ed424bb764b232b2228c0658a</property>
+    <property name="shotcut:caption">IMG_1138.MOV</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist3">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:00:11.821"/>
+    <entry producer="producer4" in="00:00:12.454" out="00:00:16.849"/>
+    <blank length="00:00:22.543"/>
+    <entry producer="chain20" in="00:00:09.890" out="00:00:14.751"/>
+  </playlist>
+  <chain id="chain7" out="00:02:32.899">
+    <property name="length">00:02:32.932</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Malcolm Lockyer - The Third Man (The Harry Lime Theme) v=VMUnf_E6fNg.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2023-01-01T20:36:22</property>
+    <property name="shotcut:hash">e675fbfe80a0eb4650f0acb195f1ce4a</property>
+    <property name="shotcut:caption">Malcolm Lockyer - The Third Man (The Harry Lime Theme) v=VMUnf_E6fNg.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter8" out="00:00:46.018">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist4">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:00:37.927"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:46.018"/>
+  </playlist>
+  <tractor id="tractor2" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:01:23.975">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:trackHeight">125</property>
+    <property name="shotcut:scaleFactor">0.840584</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2"/>
+    <track producer="playlist3"/>
+    <track producer="playlist4" hide="video"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+    </transition>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>

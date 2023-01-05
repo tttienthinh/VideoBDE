@@ -4,8 +4,8 @@
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:00:49.076">
-    <property name="length">00:00:49.109</property>
+  <producer id="black" in="00:00:00.000" out="00:00:40.268">
+    <property name="length">00:00:40.301</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -14,7 +14,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:00:49.076"/>
+    <entry producer="black" in="00:00:00.000" out="00:00:40.268"/>
   </playlist>
   <chain id="chain0" out="00:00:03.503">
     <property name="length">00:00:03.536</property>
@@ -59,6 +59,12 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">IMG_1123.MOV</property>
     <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:03.503" out="00:00:07.273">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">15</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain3" out="00:00:14.513">
     <property name="length">00:00:14.546</property>
@@ -74,6 +80,12 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">IMG_1132.MOV</property>
     <property name="xml">was here</property>
+    <filter id="filter1" in="00:00:02.702" out="00:00:12.744">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">15</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain4" out="00:00:07.873">
     <property name="length">00:00:07.907</property>
@@ -88,6 +100,12 @@
     <property name="shotcut:hash">a3b01ee7394fa49714d85dea77abc213</property>
     <property name="shotcut:caption">IMG_1133.MOV</property>
     <property name="xml">was here</property>
+    <filter id="filter2" in="00:00:01.101" out="00:00:03.403">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">15</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <producer id="producer0" in="00:00:00.000" out="00:00:02.602">
     <property name="length">00:00:02.636</property>
@@ -163,7 +181,6 @@
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <blank length="00:00:08.808"/>
     <entry producer="chain0" in="00:00:00.667" out="00:00:03.336"/>
     <entry producer="chain1" in="00:00:03.770" out="00:00:05.772"/>
     <entry producer="chain2" in="00:00:03.503" out="00:00:07.273"/>
@@ -187,7 +204,7 @@
     <property name="shotcut:hash">cd2214cb1fa27193441941c7e681f036</property>
     <property name="shotcut:caption">potion.mp4</property>
     <property name="xml">was here</property>
-    <filter id="filter0" out="00:00:00.867">
+    <filter id="filter3" out="00:00:00.867">
       <property name="version">0.4</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -195,7 +212,7 @@
       <property name="1">0.843</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter1" out="00:00:00.867">
+    <filter id="filter4" out="00:00:00.867">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -212,12 +229,12 @@
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V2</property>
-    <blank length="00:00:29.259"/>
+    <blank length="00:00:20.451"/>
     <entry producer="chain6" in="00:00:00.000" out="00:00:00.867"/>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:00:49.076">
+  <tractor id="tractor0" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:00:40.268">
     <property name="shotcut">1</property>
-    <property name="shotcut:scaleFactor">1.20102</property>
+    <property name="shotcut:scaleFactor">0.691472</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
     <track producer="background"/>

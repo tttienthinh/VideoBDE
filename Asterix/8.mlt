@@ -30,6 +30,12 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">IMG_1152.MOV</property>
     <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:07.439">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain1" out="00:00:07.939">
     <property name="length">00:00:07.973</property>
@@ -43,6 +49,12 @@
     <property name="creation_time">2022-12-11T10:14:56</property>
     <property name="shotcut:hash">e1f146bfeef675178935c00280b7eeab</property>
     <property name="shotcut:caption">IMG_1148.MOV</property>
+    <filter id="filter1" out="00:00:07.406">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain2" out="00:00:05.638">
     <property name="length">00:00:05.671</property>
@@ -56,6 +68,12 @@
     <property name="creation_time">2022-12-11T10:16:24</property>
     <property name="shotcut:hash">b63c6b0cefe9261ec83e51a609238591</property>
     <property name="shotcut:caption">IMG_1150.MOV</property>
+    <filter id="filter2" out="00:00:05.638">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain3" out="00:00:02.869">
     <property name="length">00:00:02.902</property>
@@ -69,6 +87,12 @@
     <property name="creation_time">2022-12-11T10:18:26</property>
     <property name="shotcut:hash">14baaba1b167669566d50340f01b2621</property>
     <property name="shotcut:caption">IMG_1153.MOV</property>
+    <filter id="filter3" in="00:00:00.267" out="00:00:02.836">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain4" out="00:00:06.772">
     <property name="length">00:00:06.805</property>
@@ -164,7 +188,7 @@
     <property name="shotcut:hash">5483a5b18528a34b9e45e621ff8c4957</property>
     <property name="shotcut:caption">IMG_0877.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter0" in="00:00:15.145" out="00:00:17.080">
+    <filter id="filter4" in="00:00:15.145" out="00:00:17.080">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -183,7 +207,7 @@
     <property name="creation_time">2022-12-11T11:33:55</property>
     <property name="shotcut:hash">5483a5b18528a34b9e45e621ff8c4957</property>
     <property name="shotcut:caption">IMG_0877.MOV</property>
-    <filter id="filter1" in="00:00:27.521" out="00:00:30.223">
+    <filter id="filter5" in="00:00:27.521" out="00:00:30.223">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -235,7 +259,7 @@
     <property name="shotcut:hash">c588f13f37b5c05cd8ca7237b21a6de5</property>
     <property name="shotcut:caption">IMG_1156.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter2" in="00:00:03.336" out="00:00:05.638">
+    <filter id="filter6" in="00:00:03.336" out="00:00:05.638">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -255,7 +279,7 @@
     <property name="shotcut:hash">c588f13f37b5c05cd8ca7237b21a6de5</property>
     <property name="shotcut:caption">IMG_1156.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter3" in="00:00:08.807" out="00:00:12.676">
+    <filter id="filter7" in="00:00:08.807" out="00:00:12.676">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -285,7 +309,7 @@
     <property name="shotcut:hash">89854cc2a8f8ed64eab5972b05b9c4e4</property>
     <property name="shotcut:caption">Tokyo Drift - Teriyaki Boyz v=C_rsdqKA6ok.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter4" out="00:01:15.745">
+    <filter id="filter8" out="00:01:15.745">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:25.286=-25;00:00:28.322=-5;00:00:55.976=-5;00:00:56.010=-20;00:00:59.779=-20;00:01:02.068=0</property>
@@ -310,10 +334,10 @@
     <property name="shotcut:hash">8480c9f4b7343abb689bf603e4a61d62</property>
     <property name="shotcut:caption">8 top dep nina.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter5" in="00:00:00.267" out="00:00:06.305">
+    <filter id="filter9" in="00:00:00.267" out="00:00:06.305">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">5</property>
+      <property name="level">10</property>
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
@@ -336,7 +360,7 @@
     <property name="shotcut:hash">7a5fda699877c3ff496de117477d29a4</property>
     <property name="shotcut:caption">8 course voiture.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter6" in="00:00:03.936" out="00:00:06.038">
+    <filter id="filter10" in="00:00:03.936" out="00:00:06.038">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-70</property>
@@ -356,7 +380,7 @@
     <property name="shotcut:hash">7a5fda699877c3ff496de117477d29a4</property>
     <property name="shotcut:caption">8 course voiture.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter7" in="00:00:10.375" out="00:00:12.209">
+    <filter id="filter11" in="00:00:10.375" out="00:00:12.209">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-70</property>
@@ -375,7 +399,7 @@
     <property name="creation_time">2022-12-11T11:34:07</property>
     <property name="shotcut:hash">7a5fda699877c3ff496de117477d29a4</property>
     <property name="shotcut:caption">8 course voiture.MOV</property>
-    <filter id="filter8" in="00:00:12.243" out="00:00:14.811">
+    <filter id="filter12" in="00:00:12.243" out="00:00:14.811">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-70</property>

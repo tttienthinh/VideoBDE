@@ -6,8 +6,8 @@
     <property name="shotcut:projectFolder">0</property>
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:03:42.680">
-    <property name="length">00:03:42.720</property>
+  <producer id="black" in="00:00:00.000" out="00:01:17.560">
+    <property name="length">00:01:17.600</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -16,7 +16,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:03:42.680"/>
+    <entry producer="black" in="00:00:00.000" out="00:01:17.560"/>
   </playlist>
   <chain id="chain0" out="00:00:13.280">
     <property name="length">00:00:13.320</property>
@@ -30,6 +30,13 @@
     <property name="creation_time">2022-12-11T14:16:00</property>
     <property name="shotcut:hash">edade893b4867ec1f1585febc27de15f</property>
     <property name="shotcut:caption">2- decheance.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:03.440" out="00:00:09.560">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain1" out="00:00:11.800">
     <property name="length">00:00:11.840</property>
@@ -45,6 +52,12 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">2 yeux bilal assis.MOV</property>
     <property name="xml">was here</property>
+    <filter id="filter1" out="00:00:06.680">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain2" out="00:00:25.560">
     <property name="length">00:00:25.600</property>
@@ -58,6 +71,13 @@
     <property name="creation_time">2022-12-11T14:19:50</property>
     <property name="shotcut:hash">a9cd411f75ec68ebebea686cb94fb80d</property>
     <property name="shotcut:caption">2 reveil ast obe.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" in="00:00:00.960" out="00:00:23.440">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain3" out="00:00:13.040">
     <property name="length">00:00:13.080</property>
@@ -71,6 +91,13 @@
     <property name="creation_time">2022-12-11T14:23:09</property>
     <property name="shotcut:hash">42d4b41017579e41ff6f0e3fac0aa106</property>
     <property name="shotcut:caption">2 reveil idefix.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter3" in="00:00:04.480" out="00:00:12.320">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain4" out="00:00:09.240">
     <property name="length">00:00:09.280</property>
@@ -84,6 +111,13 @@
     <property name="creation_time">2022-12-11T14:23:38</property>
     <property name="shotcut:hash">82b4cdfa1849a886a73979586b4c26c6</property>
     <property name="shotcut:caption">2 idefix miroir.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:06.520">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain5" out="00:00:05.920">
     <property name="length">00:00:05.960</property>
@@ -97,6 +131,13 @@
     <property name="creation_time">2022-12-11T14:24:10</property>
     <property name="shotcut:hash">4307ebbdcab4bc8459f13d7c69b7c4df</property>
     <property name="shotcut:caption">2 idefix marche.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" out="00:00:05.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain6" out="00:00:04.160">
     <property name="length">00:00:04.200</property>
@@ -110,6 +151,13 @@
     <property name="creation_time">2022-12-11T14:24:58</property>
     <property name="shotcut:hash">58d6168f9480f47a31767dae604bc386</property>
     <property name="shotcut:caption">2 oh idefix.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" in="00:00:02.240" out="00:00:03.640">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <chain id="chain7" out="00:00:22.640">
     <property name="length">00:00:22.680</property>
@@ -123,16 +171,22 @@
     <property name="creation_time">2022-12-11T14:30:50</property>
     <property name="shotcut:hash">99f79a24bf6cf4bb8a2eef2d790675e1</property>
     <property name="shotcut:caption">2 dicussion.MOV</property>
+    <property name="xml">was here</property>
+    <filter id="filter7" in="00:00:01.120" out="00:00:21.880">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </chain>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <blank length="00:00:51.760"/>
     <entry producer="chain0" in="00:00:03.440" out="00:00:09.120"/>
     <entry producer="chain1" in="00:00:00.000" out="00:00:06.680"/>
     <entry producer="chain2" in="00:00:00.960" out="00:00:23.440"/>
     <entry producer="chain3" in="00:00:04.480" out="00:00:12.320"/>
-    <entry producer="chain4" in="00:00:00.000" out="00:00:09.240"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:06.520"/>
     <entry producer="chain5" in="00:00:00.000" out="00:00:05.920"/>
     <entry producer="chain6" in="00:00:02.240" out="00:00:03.640"/>
     <entry producer="chain7" in="00:00:01.120" out="00:00:21.880"/>
@@ -150,10 +204,10 @@
     <property name="shotcut:hash">88ef918cca70fd6fded6a8b623315798</property>
     <property name="shotcut:caption">Alors on danse instru.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter0" out="00:01:27.680">
+    <filter id="filter8" in="00:00:35.640" out="00:01:24.160">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">00:00:54.000=-20;00:00:55.520=-30</property>
+      <property name="level">00:00:20.920=-5;00:00:27.200=-15</property>
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
@@ -169,37 +223,57 @@
     <property name="creation_time">2022-12-28T14:01:28</property>
     <property name="shotcut:hash">88ef918cca70fd6fded6a8b623315798</property>
     <property name="shotcut:caption">Alors on danse instru.mp3</property>
-    <filter id="filter1" in="00:01:28.120" out="00:03:26.920">
+    <property name="xml">was here</property>
+    <filter id="filter9" in="00:01:27.920" out="00:01:57.160">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">00:00:00.000=-30</property>
+      <property name="level">-15</property>
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.200">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain8" in="00:01:23.960" out="00:01:24.160"/>
+    <track producer="chain9" in="00:01:27.920" out="00:01:28.120"/>
+    <transition id="transition0" out="00:00:00.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
   <playlist id="playlist1">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
-    <blank length="00:00:16.160"/>
-    <entry producer="chain8" in="00:00:00.000" out="00:01:27.680"/>
-    <entry producer="chain9" in="00:01:28.120" out="00:03:26.920"/>
+    <entry producer="chain8" in="00:00:35.640" out="00:01:23.920"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.200"/>
+    <entry producer="chain9" in="00:01:28.160" out="00:01:57.160"/>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:03:42.680">
+  <tractor id="tractor1" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:01:17.560">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
-    <property name="shotcut:scaleFactor">3.25179</property>
-    <property name="shotcut:trackHeight">77</property>
+    <property name="shotcut:scaleFactor">2.207</property>
+    <property name="shotcut:trackHeight">75</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1" hide="video"/>
-    <transition id="transition0">
+    <transition id="transition2">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition1">
+    <transition id="transition3">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.1</property>
@@ -207,7 +281,7 @@
       <property name="threads">0</property>
       <property name="disable">1</property>
     </transition>
-    <transition id="transition2">
+    <transition id="transition4">
       <property name="a_track">0</property>
       <property name="b_track">2</property>
       <property name="mlt_service">mix</property>
