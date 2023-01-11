@@ -1,13 +1,13 @@
 <?xml version="1.0" standalone="no"?>
-<mlt LC_NUMERIC="C" version="7.13.0" title="Shotcut version 22.12.21" producer="main_bin">
+<mlt LC_NUMERIC="C" version="7.4.0" title="Shotcut version 22.01.30" producer="main_bin">
   <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
   <playlist id="main_bin" title="Shotcut version 22.12.21">
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:01:17.560">
-    <property name="length">00:01:17.600</property>
+  <producer id="black" in="00:00:00.000" out="00:01:49.160">
+    <property name="length">00:01:49.200</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -16,7 +16,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:01:17.560"/>
+    <entry producer="black" in="00:00:00.000" out="00:01:49.160"/>
   </playlist>
   <chain id="chain0" out="00:00:13.280">
     <property name="length">00:00:13.320</property>
@@ -31,14 +31,76 @@
     <property name="shotcut:hash">edade893b4867ec1f1585febc27de15f</property>
     <property name="shotcut:caption">2- decheance.MOV</property>
     <property name="xml">was here</property>
-    <filter id="filter0" in="00:00:03.440" out="00:00:09.560">
+    <filter id="filter0" in="00:00:03.440" out="00:00:10.440">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">10</property>
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain1" out="00:00:11.800">
+  <chain id="chain1" out="00:00:23.240">
+    <property name="length">00:00:23.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/flash back/0 fete chill.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">4980f917191ec6a3780c4eb848184d0b</property>
+    <property name="shotcut:caption">0 fete chill.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:02.880">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain0" in="00:00:06.240" out="00:00:09.120"/>
+    <track producer="chain1" in="00:00:00.000" out="00:00:02.880"/>
+    <transition id="transition0" out="00:00:02.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma16.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition1" out="00:00:02.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <chain id="chain2" out="00:00:05.680">
+    <property name="length">00:00:05.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/flash back/0 antoine boit.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1b0068f614223a74f7967fa37da6285f</property>
+    <property name="shotcut:caption">0 antoine boit.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:00:23.560">
+    <property name="length">00:00:23.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/flash back/0 fete hard.MOV</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">95c7f7f7b9377e44dc163194434a2cbb</property>
+    <property name="shotcut:caption">0 fete hard.MOV</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:00:11.800">
     <property name="length">00:00:11.840</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 yeux bilal assis.MOV</property>
@@ -59,7 +121,30 @@
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain2" out="00:00:25.560">
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:02.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain4" in="00:00:21.560" out="00:00:23.560"/>
+    <track producer="chain5" in="00:00:00.000" out="00:00:02.000"/>
+    <transition id="transition2" out="00:00:02.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma16.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition3" out="00:00:02.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <chain id="chain6" out="00:00:25.560">
     <property name="length">00:00:25.600</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 reveil ast obe.MOV</property>
@@ -79,7 +164,7 @@
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain3" out="00:00:13.040">
+  <chain id="chain7" out="00:00:13.040">
     <property name="length">00:00:13.080</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 reveil idefix.MOV</property>
@@ -99,7 +184,7 @@
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain4" out="00:00:09.240">
+  <chain id="chain8" out="00:00:09.240">
     <property name="length">00:00:09.280</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 idefix miroir.MOV</property>
@@ -119,7 +204,7 @@
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain5" out="00:00:05.920">
+  <chain id="chain9" out="00:00:05.920">
     <property name="length">00:00:05.960</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 idefix marche.MOV</property>
@@ -139,7 +224,7 @@
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain6" out="00:00:04.160">
+  <chain id="chain10" out="00:00:04.160">
     <property name="length">00:00:04.200</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 oh idefix.MOV</property>
@@ -159,7 +244,7 @@
       <property name="mlt_service">volume</property>
     </filter>
   </chain>
-  <chain id="chain7" out="00:00:22.640">
+  <chain id="chain11" out="00:00:22.640">
     <property name="length">00:00:22.680</property>
     <property name="eof">pause</property>
     <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/2 - Reveil + déplacements/2 dicussion.MOV</property>
@@ -182,98 +267,42 @@
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <entry producer="chain0" in="00:00:03.440" out="00:00:09.120"/>
-    <entry producer="chain1" in="00:00:00.000" out="00:00:06.680"/>
-    <entry producer="chain2" in="00:00:00.960" out="00:00:23.440"/>
-    <entry producer="chain3" in="00:00:04.480" out="00:00:12.320"/>
-    <entry producer="chain4" in="00:00:00.000" out="00:00:06.520"/>
-    <entry producer="chain5" in="00:00:00.000" out="00:00:05.920"/>
-    <entry producer="chain6" in="00:00:02.240" out="00:00:03.640"/>
-    <entry producer="chain7" in="00:00:01.120" out="00:00:21.880"/>
+    <entry producer="chain0" in="00:00:03.440" out="00:00:06.200"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:02.880"/>
+    <entry producer="chain1" in="00:00:02.920" out="00:00:10.640"/>
+    <entry producer="chain2" in="00:00:01.520" out="00:00:04.480"/>
+    <entry producer="chain4" in="00:00:00.720" out="00:00:21.520"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:02.000"/>
+    <entry producer="chain5" in="00:00:02.040" out="00:00:06.680"/>
+    <entry producer="chain6" in="00:00:00.960" out="00:00:23.440"/>
+    <entry producer="chain7" in="00:00:04.480" out="00:00:12.320"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:00:06.520"/>
+    <entry producer="chain9" in="00:00:00.000" out="00:00:05.920"/>
+    <entry producer="chain10" in="00:00:02.240" out="00:00:03.640"/>
+    <entry producer="chain11" in="00:00:01.120" out="00:00:21.880"/>
   </playlist>
-  <chain id="chain8" out="00:03:26.920">
-    <property name="length">00:03:26.960</property>
-    <property name="eof">pause</property>
-    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Alors on danse instru.mp3</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="mute_on_pause">0</property>
-    <property name="creation_time">2022-12-28T14:01:28</property>
-    <property name="shotcut:hash">88ef918cca70fd6fded6a8b623315798</property>
-    <property name="shotcut:caption">Alors on danse instru.mp3</property>
-    <property name="xml">was here</property>
-    <filter id="filter8" in="00:00:35.640" out="00:01:24.160">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">00:00:20.920=-5;00:00:27.200=-15</property>
-      <property name="mlt_service">volume</property>
-    </filter>
-  </chain>
-  <chain id="chain9" out="00:03:26.920">
-    <property name="length">00:03:26.960</property>
-    <property name="eof">pause</property>
-    <property name="resource">/home/tttienthinh/Documents/VideoBDE/Shot/12-Suplément/Alors on danse instru.mp3</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="mute_on_pause">0</property>
-    <property name="creation_time">2022-12-28T14:01:28</property>
-    <property name="shotcut:hash">88ef918cca70fd6fded6a8b623315798</property>
-    <property name="shotcut:caption">Alors on danse instru.mp3</property>
-    <property name="xml">was here</property>
-    <filter id="filter9" in="00:01:27.920" out="00:01:57.160">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-15</property>
-      <property name="mlt_service">volume</property>
-    </filter>
-  </chain>
-  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.200">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="chain8" in="00:01:23.960" out="00:01:24.160"/>
-    <track producer="chain9" in="00:01:27.920" out="00:01:28.120"/>
-    <transition id="transition0" out="00:00:00.200">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-    </transition>
-    <transition id="transition1" out="00:00:00.200">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="start">-1</property>
-      <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
-    </transition>
-  </tractor>
   <playlist id="playlist1">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
-    <entry producer="chain8" in="00:00:35.640" out="00:01:23.920"/>
-    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.200"/>
-    <entry producer="chain9" in="00:01:28.160" out="00:01:57.160"/>
+    <blank length="00:00:00.040"/>
   </playlist>
-  <tractor id="tractor1" title="Shotcut version 22.12.21" in="00:00:00.000" out="00:01:17.560">
+  <tractor id="tractor2" title="Shotcut version 22.01.30" in="00:00:00.000" out="00:01:49.160">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
-    <property name="shotcut:scaleFactor">2.207</property>
-    <property name="shotcut:trackHeight">75</property>
+    <property name="shotcut:scaleFactor">0.207645</property>
+    <property name="shotcut:trackHeight">70</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1" hide="video"/>
-    <transition id="transition2">
+    <transition id="transition4">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition3">
+    <transition id="transition5">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.1</property>
@@ -281,7 +310,7 @@
       <property name="threads">0</property>
       <property name="disable">1</property>
     </transition>
-    <transition id="transition4">
+    <transition id="transition6">
       <property name="a_track">0</property>
       <property name="b_track">2</property>
       <property name="mlt_service">mix</property>
